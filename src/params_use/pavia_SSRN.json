@@ -1,0 +1,32 @@
+{
+    "data": {
+        "data_sign": "Pavia",
+        "data_file": "Pavia_10",
+        "diffusion_sign": false,
+        "patch_size": 13,
+        "test_ratio": 0.95,
+        "batch_size": 64,
+        "unlabelled_multiple": 1,
+        "num_classes": 9,
+        "pca": -103,
+        "dim_heads": 64,
+        "spectral_size": 103,
+        "perclass": 10,
+        "sample": 2
+    },
+    "net": {
+        "trainer": "SSRN",
+        "net_type": "just_pixel",
+        "k": 49,
+        "l": 24,
+        "num_classes": 9
+    },
+    "train": {
+        "epochs": 200,
+        "lr": 0.0003,
+        "weight_decay": 0,
+        "use_unlabel": true,
+        "weight": 0.1,
+        "temp": 10
+    }
+}

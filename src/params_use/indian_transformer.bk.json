@@ -1,0 +1,29 @@
+{
+    "data": {
+        "data_sign": "Indian",
+        "data_file": "Indian_10",
+        "patch_size": 13,
+        "batch_size": 16,
+        "num_classes": 16,
+        "pca": 200,
+        "dim_heads": 64,
+        "spectral_size": 200,
+        "random_rotate": false
+    },
+    "net": {
+        "trainer": "transformer",
+        "use_mask": true,
+        "mlp_dim": 8,
+        "depth": 3,
+        "dim": 64,
+        "heads": 20,
+        "kernal": 5,
+        "padding": 2
+    },
+    "train": {
+        "epochs": 60,
+        "lr": 0.001,
+        "weight_decay": 0
+    },
+    "uniq_name": "Indian_test"
+}

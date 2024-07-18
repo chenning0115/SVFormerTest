@@ -1,0 +1,20 @@
+{
+    "data": {
+        "data_sign": "Indian",
+        "data_file": "Indian_20",
+        "patch_size": 1,
+        "test_ratio": 0.95,
+        "batch_size": 512,
+        "num_classes": 16,
+        "pca": 0,
+        "spectral_size": 200
+    },
+    "net": {
+        "trainer": "conv2d"
+    },
+    "train": {
+        "epochs": 500,
+        "lr": 0.001,
+        "weight_decay": 0
+    }
+}
